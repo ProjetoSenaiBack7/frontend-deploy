@@ -53,4 +53,4 @@ jobs:
           app-name: 'frontendshock'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_47ECB344136A407C8893B57AE07F10B8 }}
-          package: .
+          package: 'build'
